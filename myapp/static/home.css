@@ -1,0 +1,142 @@
+.pic_card{
+    margin-top: 1%;
+    padding-top: 1%;
+    margin-left: 15%;
+    position: relative;
+    aspect-ratio: 2/3;
+    width: 25%;  
+}
+
+.pic{
+    position: relative;
+    min-width: 200px;
+    aspect-ratio: 2/3;
+    width: 100%;
+    object-fit: contain;
+    transition-property: all;
+    transition-duration: 500ms;
+    filter: grayscale(100%);
+}
+
+.pic:hover{
+    transform: scale(1.2);
+    filter: grayscale(0%);
+}
+
+.name{ 
+
+    color: grey;
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    overflow-x: hidden;
+    height: 20%;
+    white-space: nowrap;
+    
+    
+}
+
+.Intro{
+  
+    position: relative;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+
+.developer{
+    margin-top: 5%;
+    font-family: 'Inter', sans-serif;
+    color: grey;
+    overflow: hidden;
+    font-size: 1.5rem;
+    font-weight: 700;
+  
+    height: 70%;
+
+    
+}
+
+.par{
+    width: 0;
+    overflow: hidden;
+    color: white;
+    padding-top: 5%;
+}
+
+.surname{
+    color: white;
+    overflow: hidden;
+    display: inline-flex;
+    width: 0;
+}
+
+.loves{
+    margin-top: 2%;
+    color: grey;
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 100%;
+   
+    font-size: 1.5rem;
+    line-height: 40px;
+}
+
+.born{
+    margin-top: 5%;
+    color: grey;
+    font-size: 1.5rem;
+    font-family: 'Inter', sans-serif;;
+}
+
+.dev{
+    color: white;
+}
+
+.india{
+    color: white;
+}
+
+.dob{
+    color: white;
+}
+
+
+@media only screen and (max-width:720px) {
+    .developer{
+        margin-top: 1%;
+    }
+    .name{
+        font-size: 1.5rem; 
+        overflow: visible;  
+        height: fit-content;     
+    }
+
+    .Intro{
+        width: 90%;
+        font-size: 0.5rem;
+        margin-top: 8%; 
+        margin-left: 0; 
+        height: fit-content; 
+    }
+
+    .loves{
+        line-height: 110%;
+        margin-top: 2%;
+       
+    }
+    
+    .born{
+        margin-top: 1%;
+    }
+    .pic_card{
+        width: 60%;
+        margin-left: 0;
+    }
+}

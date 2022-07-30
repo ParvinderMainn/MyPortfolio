@@ -1,0 +1,20 @@
+{% extends 'index.html' %}
+
+{% block content %}
+{% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'about.css' %}">
+    
+    <div class="pic_card">
+        <img class="pic" src="{% static 'IMG_E0959.JPG'%}" alt="" srcset="">
+    </div>
+    <div class="Intro">
+        <h1 class="des">
+            Hi, My name is <span class="name">Parvinder Singh Mainn.</span><br>
+            <p class="Education"> I was born on the <span class="dob">24th day of August in 1998</span> at a small town of beautiful country 
+                <span class="india">India. </span>I have done my <span class="ed">masters in Automobile Engineering</span> from <span class="uni">Amity University, Noida.</span> But I developed passion for coding after my masters.
+            I learned about coding and start practicing on <span class="code">HTML, CSS, JAVASCRIPT, and framework Django.</span> Now this is my full time hobby and work...</p>
+            I also work at <span class="jangeer">Jangeer Manufacturing Industries Pvt Ltd.</span> 
+        </h1>
+    </div>
+    <script src="{% static 'about.js' %}" type="text/javascript"></script>
+{% endblock %}

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Josefin+Sans:wght@500&family=PT+Serif:wght@700&display=swap');
+
+body{
+    background-color: black;
+    -webkit-transition: background-color 200ms ease-in-out;
+    -moz-transition: background-color 200ms ease-in-out;
+    -o-transition: background-color 200ms ease-in-out;
+    transition: background-color 200ms ease-in-out;
+}
+
+.pic_card{
+    padding-top: 1%;
+    margin-left: 12%;
+    position: relative;
+    aspect-ratio: 2/3;
+    width: 25%;
+    
+}
+
+.pic{
+    position: relative;
+    min-width: 200px;
+    aspect-ratio: 2/3;
+    width: 100%;
+    object-fit: contain;
+    transition-property: all;
+    transition-duration: 500ms;
+    filter: grayscale(100%);
+}
+
+.pic:hover{
+    transform: scale(1.2);
+    filter: grayscale(0%);
+}
+
+.des{
+    
+    margin-left: 15%;
+    margin-top: 15%;
+    margin-right: 0;
+    width: 70%;
+    color: grey;
+    font-family: 'Inter',sans-serif;
+    font-size: 1.5rem;
+    
+}
+
+.Education{
+    font-size: 1.25rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.name{
+    color: white;
+    font-family: 'Inter',sans-serif;
+    
+} 
+.dob{
+     color: white;
+    font-family: 'Inter',sans-serif;
+    
+}
+.india{
+    color: white;
+    font-family: 'Inter',sans-serif;
+    
+}
+.ed{
+    color: white;
+    font-family: 'Inter',sans-serif;
+    
+}
+.uni{
+    color: white;
+    font-family: 'Inter',sans-serif;
+    
+}
+.code{
+    color: white;
+    font-family: 'Inter',sans-serif;
+    
+}
+.jangeer{
+    color: white;
+    font-family: 'Inter',sans-serif;
+    
+}

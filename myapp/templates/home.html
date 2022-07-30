@@ -1,0 +1,15 @@
+{% extends 'index.html' %}
+
+{% block content %}
+{% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'home.css' %}">
+    <div class="item pic_card">
+        <img class="pic" src="{% static 'DSC0E2500.JPG'%}" alt="" srcset="">
+    </div>
+    <div class="item Intro">
+        <h1 class="name">Hey, I'm <span class="par">Parvinder  </span><div class="surname">  Singh Mainn</div></h2>
+        <h2 class="developer">Self-taught & Passionate <span class="dev">Developer</span> <div class="loves">Who loves to build things on internet <br> through the beauty of coding.</div></h2>    
+        <h3 class="born">Born and Brought up in <span class="india">India</span> since <span class="dob">1998</span>.</h3>
+    </div>
+    <script src="{% static 'home.js' %}" type="text/javascript"></script>
+{% endblock %}
